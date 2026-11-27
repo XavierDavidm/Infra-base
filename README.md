@@ -38,3 +38,6 @@ spring.cloud.gateway.server.webflux.routes[0].predicates[0]=Path=/exemplos/** <b
 -> 4. programar o resto das funcionalidades do serviço
 
 -> 5. Test Restman:
+
+Content-Type <br>
+application/json <br>
