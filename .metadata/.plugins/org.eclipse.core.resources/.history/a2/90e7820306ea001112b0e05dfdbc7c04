@@ -1,0 +1,9 @@
+spring.application.name=registry
+//CONFIGURACAO BASICA
+
+server.port=8761
+
+spring.application.name=REGISTRY-SERVICE
+
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
