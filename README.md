@@ -75,9 +75,9 @@ DTO.java	Lombok <br>
 verificar o verisionamento no .pom, para 3.5.6, já que o Initializr gera a 4.0 <br>
 no caso mudar:
 
-<version>3.5.6</version> <br>
+#<version>3.5.6</version> <br>
 
-<properties>
+#<properties>
     <java.version>21</java.version>
     <spring-cloud.version>2025.0.3</spring-cloud.version>
-</properties>
+#</properties>
