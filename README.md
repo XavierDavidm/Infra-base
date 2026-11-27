@@ -19,7 +19,7 @@ passos -> baixar -> import existing maven project -> run as java app os 2
 spring.application.name=EXEMPLO-SERVICE
 
 eureka.client.register-with-eureka=true <br>
-eureka.client.fetch-registry=true
-eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
-eureka.instance.hostname=localhost
+eureka.client.fetch-registry=true <br>
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/ <br>
+eureka.instance.hostname=localhost <br>
 
