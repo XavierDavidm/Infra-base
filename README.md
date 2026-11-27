@@ -14,9 +14,13 @@ passos -> baixar -> import existing maven project -> run as java app os 2
 
 -> 1. depencias no springInitalizer -> Eureka Discovery Client
 
--> 2. server.port=8001
+-> 2. dentro do novo serviço application.properties
 
-spring.application.name=EXEMPLO-SERVICE
+exemplo:
+
+server.port=8001 <br>
+
+spring.application.name=EXEMPLO-SERVICE <br>
 
 eureka.client.register-with-eureka=true <br>
 eureka.client.fetch-registry=true <br>
