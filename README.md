@@ -59,4 +59,4 @@ Cenário A — Serviço com persistência em banco de dados que consulta outro m
 Cenário B — Serviço que consulta uma API externa, sem persistência
 - Dependências: Spring Web, Eureka Discovery Client, Lombok.
 - Equivalente no gabarito: cotacoes-service.
-- Classe principal: @Bean + RestTemplate, sem @LoadBalanced.
+- Classe principal: @Bean + RestTemplate
