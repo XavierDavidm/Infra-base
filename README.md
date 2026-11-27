@@ -60,3 +60,14 @@ Cenário B — Serviço que consulta uma API externa, sem persistência
 - Dependências: Spring Web, Eureka Discovery Client, Lombok.
 - Equivalente no gabarito: cotacoes-service.
 - Classe principal: @Bean + RestTemplate
+
+quando for classe com h2 -> atualizar .properties com as coisas de banco, copiar de acoes-service
+
+Arquivo	e Anotações típicas
+
+Application.java	@SpringBootApplication, @Bean, @LoadBalanced <br>
+Controller.java	@RestController, @RequestMapping, @Autowired, @GetMapping, @PostMapping, @RequestBody <br>
+Service.java	@Service, @Autowired <br>
+Repository.java	@Repository <br>
+Model.java	@Entity, @Id, @GeneratedValue, @Column, Lombok <br>
+DTO.java	Lombok <br>
