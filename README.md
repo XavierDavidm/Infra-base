@@ -39,5 +39,11 @@ spring.cloud.gateway.server.webflux.routes[0].predicates[0]=Path=/exemplos/** <b
 
 -> 5. Test Restman:
 
+requisição direta <br>
+GET http://localhost:8001/exemplos 
+
+requisição gateway <br>
+GET http://localhost:8005/exemplos 
+
 Content-Type <br>
 application/json <br>
