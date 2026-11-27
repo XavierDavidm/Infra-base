@@ -47,3 +47,16 @@ GET http://localhost:8005/exemplos
 
 Content-Type <br>
 application/json <br>
+
+notas adicionais <br>
+atenção com os tipos diferentes de serviços novos:
+
+Cenário A — Serviço com persistência em banco de dados que consulta outro microsserviço
+- Dependências: Spring Web, Eureka Discovery Client, Lombok, Spring Data JPA, H2 Database, Spring Cloud LoadBalancer.
+- Equivalente no gabarito: acoes-service.
+- Classe principal: @Bean + @LoadBalanced + RestTemplate.
+
+Cenário B — Serviço que consulta uma API externa, sem persistência
+- Dependências: Spring Web, Eureka Discovery Client, Lombok.
+- Equivalente no gabarito: cotacoes-service.
+- Classe principal: @Bean + RestTemplate, sem @LoadBalanced.
