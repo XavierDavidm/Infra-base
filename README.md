@@ -71,3 +71,13 @@ Service.java	@Service, @Autowired <br>
 Repository.java	@Repository <br>
 Model.java	@Entity, @Id, @GeneratedValue, @Column, Lombok <br>
 DTO.java	Lombok <br>
+
+verificar o verisionamento no .pom, para 3.5.6, já que o Initializr gera a 4.0 <br>
+no caso mudar:
+
+<version>3.5.6</version> <br>
+
+<properties>
+    <java.version>21</java.version>
+    <spring-cloud.version>2025.0.3</spring-cloud.version>
+</properties>
