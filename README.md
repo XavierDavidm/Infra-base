@@ -29,9 +29,12 @@ eureka.instance.hostname=localhost <br>
 
 -> cada um com uma porta e nome correto
 
--> 3. alterar rotas no gateway .properties
+-> 3. alterar rotas no gateway .properties, os nomes em maiusculo DEVEM SER IGUAIS
 
 spring.cloud.gateway.server.webflux.routes[0].id=EXEMPLO-SERVICE <br>
 spring.cloud.gateway.server.webflux.routes[0].uri=lb://EXEMPLO-SERVICE <br>
 spring.cloud.gateway.server.webflux.routes[0].predicates[0]=Path=/exemplos/** <br>
 
+-> 4. programar o resto das funcionalidades do serviço
+
+-> 5. Test Restman:
