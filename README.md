@@ -85,7 +85,7 @@ no caso mudar:
 ```
 teste h2
 
-Driver -> Classorg.h2.Driver <br>
-JDBC -> URLjdbc:h2:mem:testdb <br>
+Driver Class -> org.h2.Driver <br>
+JDBC URL -> jdbc:h2:mem:testdb <br>
 User Name -> sa <br>
 Password Deixar em branco <br>
