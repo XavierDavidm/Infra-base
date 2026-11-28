@@ -89,3 +89,13 @@ Driver Class -> org.h2.Driver <br>
 JDBC URL -> jdbc:h2:mem:testdb <br>
 User Name -> sa <br>
 Password Deixar em branco <br>
+
+lombok(caso de erro e não tenha instalado)
+
+https://projectlombok.org/download
+
+java -jar lombok.jar
+
+caso não de para instalar usar o build clean do maven -> build sucess
+
+.\mvnw.cmd clean compile
