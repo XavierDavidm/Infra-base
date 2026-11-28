@@ -83,3 +83,9 @@ no caso mudar:
     <spring-cloud.version>2025.0.3</spring-cloud.version>
 </properties>
 ```
+teste h2
+
+Driver -> Classorg.h2.Driver <br>
+JDBC -> URLjdbc:h2:mem:testdb <br>
+User Name -> sa <br>
+Password Deixar em branco <br>
